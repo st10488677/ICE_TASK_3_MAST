@@ -1,8 +1,9 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import AgeScreen from "./Screens/AgeScreen";
-import MovieScreen from "./Screens/MovieScreen.tsx";
+import AgeScreen from "./screens/AgeScreen";
+import MovieScreen from "./screens/MovieScreen";
+
 
 export type RootStackParamList = {
   Age: undefined;
@@ -20,4 +21,4 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+}   
